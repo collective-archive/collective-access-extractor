@@ -11,8 +11,8 @@ describe("Gateway", function() {
   });
 
   it("can fetch a single item", function(done) {
-    this.gateway.getItem(1, function(err, results) {
-      console.log(results);
+    this.gateway.getItem(1, function(err, item) {
+      console.log(item);
       done();
     });
   });
