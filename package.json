@@ -10,7 +10,9 @@
   "scripts": {
     "test": "grunt jasmine_node"
   },
-  "dependencies": {},
+  "dependencies": {
+    "request-json": "^0.4.10"
+  },
   "devDependencies": {
     "hint-hint": "~0.3.0",
     "load-grunt-tasks": "~0.1.0",
