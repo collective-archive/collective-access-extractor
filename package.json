@@ -1,10 +1,10 @@
 {
-  "author": "Chris Geihsler <chris@geihsler.net> (https:\/\/github.com\/collective\-archive\/collective\-access\-extractor)",
-  "name": "collective\-access\-extractor",
+  "author": "Chris Geihsler <chris@geihsler.net>",
+  "name": "collective-access-extractor",
   "description": "A utility to extract the contents of a Collective Access archive.",
   "version": "0.0.1",
   "repository": {
-    "url": "email chris@geihsler.net"
+    "url": "https://github.com/collective-archive/collective-access-extractor"
   },
   "main": "./lib/index.js",
   "scripts": {
