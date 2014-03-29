@@ -1,6 +1,6 @@
 Gateway = require('../lib/gateway')
 
-describe("hello world", function() {
+describe("Gateway", function() {
   beforeEach(function() {
     this.params = {
       url:      'http://162.243.52.198/',
