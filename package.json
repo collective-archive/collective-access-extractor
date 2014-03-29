@@ -8,15 +8,21 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "test": "make test"
+    "test": "grunt jasmine_node"
   },
   "dependencies": {},
   "devDependencies": {
     "hint-hint": "~0.3.0",
-    "tap": "~0.3.1"
+    "load-grunt-tasks": "~0.1.0",
+    "time-grunt": "~0.2.7",
+    "grunt-jasmine-node": "~0.2.1"
   },
   "optionalDependencies": {},
   "engines": {
     "node": ">=0.10"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "collective-archive-extract" : "lib/extract.js"
   }
 }
