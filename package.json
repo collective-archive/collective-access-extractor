@@ -24,6 +24,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "collective-archive-extract": "lib/extract.js"
+    "collective-archive-extract": "lib/extractor.js"
   }
 }
