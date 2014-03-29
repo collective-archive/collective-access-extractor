@@ -15,7 +15,8 @@
     "hint-hint": "~0.3.0",
     "load-grunt-tasks": "~0.1.0",
     "time-grunt": "~0.2.7",
-    "grunt-jasmine-node": "~0.2.1"
+    "grunt-jasmine-node": "~0.2.1",
+    "grunt": "^0.4.4"
   },
   "optionalDependencies": {},
   "engines": {
@@ -23,6 +24,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "collective-archive-extract" : "lib/extract.js"
+    "collective-archive-extract": "lib/extract.js"
   }
 }
