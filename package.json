@@ -11,14 +11,16 @@
     "test": "grunt jasmine_node"
   },
   "dependencies": {
-    "request-json": "^0.4.10"
+    "request-json": "^0.4.10",
+    "underscore": "^1.6.0"
   },
   "devDependencies": {
     "hint-hint": "~0.3.0",
     "load-grunt-tasks": "~0.1.0",
     "time-grunt": "~0.2.7",
     "grunt-jasmine-node": "~0.2.1",
-    "grunt": "^0.4.4"
+    "grunt": "^0.4.4",
+    "mstring": "^0.1.2"
   },
   "optionalDependencies": {},
   "engines": {
