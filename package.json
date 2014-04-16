@@ -2,7 +2,7 @@
   "author": "Chris Geihsler <chris@geihsler.net>",
   "name": "collective-access-extractor",
   "description": "A utility to extract the contents of a Collective Access archive.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "url": "https://github.com/collective-archive/collective-access-extractor"
   },
