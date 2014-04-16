@@ -2,11 +2,11 @@
   "author": "Chris Geihsler <chris@geihsler.net>",
   "name": "collective-access-extractor",
   "description": "A utility to extract the contents of a Collective Access archive.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/collective-archive/collective-access-extractor"
   },
-  "main": "./lib/index.js",
+  "main": "./lib/extractor.js",
   "scripts": {
     "test": "grunt jasmine_node"
   },
@@ -26,8 +26,5 @@
   "engines": {
     "node": ">=0.10"
   },
-  "preferGlobal": "true",
-  "bin": {
-    "collective-archive-extract": "lib/extractor.js"
-  }
+  "preferGlobal": "true"
 }
