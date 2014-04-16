@@ -25,6 +25,8 @@ describe("Transformers", function() {
     destination = transformers.objectTransformer.transform(this.sourceObject);
 
     expect(destination.id).toEqual('3');
+    expect(destination.idNumber).toEqual('WK14031401_ao');
+    expect(destination.displayName).toEqual('Pipe fitters finishing the engine room of a tuna-fishing boat. Campbell Shipyard. San Diego harbor');
     expect(destination.material).toEqual('dye transfer print');
     expect(destination.measurements).toEqual({
         height: '61.3 cm',
