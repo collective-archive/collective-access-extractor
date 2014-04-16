@@ -1,0 +1,422 @@
+M = require('mstring');
+var entityJson = M(function() {
+      /***
+{
+   "ok":true,
+   "preferred_labels":{
+      "en_US":[
+         "Allan Sekula"
+      ]
+   },
+   "entity_id":{
+      "value":"1"
+   },
+   "type_id":{
+      "value":"80",
+      "display_text":{
+         "en_US":"Personal"
+      }
+   },
+   "idno":{
+      "value":"AG14031401_ao"
+   },
+   "idno_sort":{
+      "value":"AG14031401  ao          "
+   },
+   "lifespan":{
+      "value":""
+   },
+   "hier_entity_id":{
+      "value":"1"
+   },
+   "hier_left":{
+      "value":"1.00000000000000000000"
+   },
+   "hier_right":{
+      "value":"4294967296.00000000000000000000"
+   },
+   "access":{
+      "value":"0",
+      "display_text":{
+         "en_US":"not accessible to public"
+      }
+   },
+   "status":{
+      "value":"0",
+      "display_text":{
+         "en_US":"new"
+      }
+   },
+   "deleted":{
+      "value":"0"
+   },
+   "rank":{
+      "value":"0"
+   },
+   "ca_entities.address":[
+      {
+         "none":{
+            "address1":"3816 Clinton Street",
+            "address2":null,
+            "city":"Los Angeles",
+            "stateprovince":"California",
+            "postalcode":"90004",
+            "country":"USA"
+         }
+      }
+   ],
+   "ca_entities.telephone":[
+      {
+         "none":{
+            "telephone":"(213) 258-8259"
+         }
+      }
+   ],
+   "ca_entities.email":[
+      {
+         "none":{
+            "email":"Allan Sekula <allansekula@gmail.com>"
+         }
+      }
+   ],
+   "ca_entities.refid":[
+      {
+         "en_US":{
+            "refid":"500085803"
+         }
+      }
+   ],
+   "ca_entities.vocab":[
+      {
+         "en_US":{
+            "vocab":"Union List of Artist Names Online (ULAN)"
+         }
+      }
+   ],
+   "ca_entities.attribution":[
+      {
+         "en_US":{
+            "attribution":null
+         }
+      }
+   ],
+   "ca_entities.culture":[
+      {
+         "en_US":{
+            "culture":"American"
+         }
+      }
+   ],
+   "ca_entities.agentDates":[
+      {
+         "en_US":{
+            "agentDisplayDate":"1951-2013",
+            "agentIndexingDate":"1951 - 2013",
+            "agentDateType":"life"
+         }
+      }
+   ],
+   "ca_entities.roleSet":[
+      {
+         "en_US":{
+            "role":"photographer",
+            "roleVocab":null,
+            "roleRefid":null
+         }
+      }
+   ],
+   "related":{
+      "ca_objects":[
+         {
+            "item_type_id":"21",
+            "object_id":"3",
+            "sdatetime":null,
+            "edatetime":null,
+            "relationship_type_id":"96",
+            "idno":"WK14031401_ao",
+            "idno_sort":"WK14031401  ao          ",
+            "relation_id":"1",
+            "name":"Pipe fitters finishing the engine room of a tuna-fishing boat. Campbell Shipyard. San Diego harbor",
+            "locale_id":"1",
+            "source_info":"",
+            "row_id":"1",
+            "labels":{
+               "1":"Pipe fitters finishing the engine room of a tuna-fishing boat. Campbell Shipyard. San Diego harbor"
+            },
+            "_key":"relation_id",
+            "direction":"rtol",
+            "relationship_typename":"creator",
+            "relationship_type_code":"creator",
+            "label":"Pipe fitters finishing the engine room of a tuna-fishing boat. Campbell Shipyard. San Diego harbor"
+         }
+      ]
+   }
+}
+      ***/
+    });
+
+var objectJson = M(function() {
+      /***
+{
+  "ok":true,
+  "preferred_labels":{
+    "en_US":[
+      "Pipe fitters finishing the engine room of a tuna-fishing boat. Campbell Shipyard. San Diego harbor"
+    ]
+  },
+  "object_id":{
+    "value":"3"
+  },
+  "hier_object_id":{
+    "value":"3"
+  },
+  "type_id":{
+    "value":"21",
+    "display_text":{
+      "en_US":"Work"
+    }
+  },
+  "idno":{
+    "value":"WK14031401_ao"
+  },
+  "idno_sort":{
+    "value":"WK14031401  ao          "
+  },
+  "hier_left":{
+    "value":"1.00000000000000000000"
+  },
+  "hier_right":{
+    "value":"4294967296.00000000000000000000"
+  },
+  "extent":{
+    "value":"0"
+  },
+  "extent_units":{
+    "value":""
+  },
+  "access":{
+    "value":"0",
+    "display_text":{
+      "en_US":"not accessible to public"
+    }
+  },
+  "status":{
+    "value":"0",
+    "display_text":{
+      "en_US":"new"
+    }
+  },
+  "deleted":{
+    "value":"0"
+  },
+  "rank":{
+    "value":"0"
+  },
+  "acl_inherit_from_ca_collections":{
+    "value":"0"
+  },
+  "acl_inherit_from_parent":{
+    "value":"0"
+  },
+  "representations":[
+    
+  ],
+  "ca_objects.lcsh_terms":[
+    {
+      "none":{
+        "lcsh_terms":null
+      }
+    }
+  ],
+  "ca_objects.extent":[
+    {
+      "none":"0"
+    }
+  ],
+  "ca_objects.notes":[
+    {
+      "en_US":{
+        "notes":"Should add \"related places\""
+      }
+    }
+  ],
+  "ca_objects.culturalContextSet":[
+    {
+      "en_US":{
+        "culturalContextTerm":"American",
+        "culturalContextVocab":null,
+        "culturalContext_href":null,
+        "culturalContext_refid":null
+      }
+    }
+  ],
+  "ca_objects.dateSet":[
+    {
+      "en_US":{
+        "displayDate":"August 1991",
+        "indexingDate":"August 1991",
+        "genDateType":"creation",
+        "dateSource":null,
+        "dateHref":null
+      }
+    }
+  ],
+  "ca_objects.descriptionSet":[
+    {
+      "en_US":{
+        "discriptionText":null,
+        "descriptionSource":null
+      }
+    }
+  ],
+  "ca_objects.inscriptionSet":[
+    {
+      "en_US":{
+        "inscriptionText":null,
+        "inscriptionAuthor":null,
+        "inscriptionAuthorVocab":null,
+        "inscriptionAuthorrefid":null,
+        "position":null,
+        "inscriptionType":"signature"
+      }
+    }
+  ],
+  "ca_objects.materialSet":[
+    {
+      "en_US":{
+        "material":"dye transfer print",
+        "materialType":"medium",
+        "materialVocab":null,
+        "materialRefid":null
+      }
+    }
+  ],
+  "ca_objects.measurementSet":[
+    {
+      "none":{
+        "measurements":"61.3 cm",
+        "measurementsType":"height",
+        "measurementsExtent":null
+      }
+    },
+    {
+      "none":{
+        "measurements":"77.8 cm",
+        "measurementsType":"width",
+        "measurementsExtent":null
+      }
+    }
+  ],
+  "ca_objects.rightsSet":[
+    {
+      "en_US":{
+        "rightsHolder":"Artist",
+        "rightText":null,
+        "rightType":"copyrighted",
+        "rightHref":null,
+        "rightNotes":null
+      }
+    }
+  ],
+  "ca_objects.sourceSet":[
+    {
+      "en_US":{
+        "sourceText":null,
+        "sourceType":"book",
+        "sourceRefid":null,
+        "sourceRefidType":"citation"
+      }
+    }
+  ],
+  "ca_objects.stateEditionSet":[
+    {
+      "en_US":{
+        "stateEditionName":null,
+        "stateEditionDesc":null,
+        "stateType":"edition",
+        "stateNum":null,
+        "stateCount":null,
+        "stateEditionSource":null
+      }
+    }
+  ],
+  "ca_objects.stylePeriodSet":[
+    {
+      "en_US":{
+        "stylePeriod":null,
+        "stylePeriodVocab":null,
+        "stylePeriodRefid":null
+      }
+    }
+  ],
+  "ca_objects.techniqueSet":[
+    {
+      "en_US":{
+        "technique":null,
+        "techniqueVocab":null,
+        "techniqueRefid":null
+      }
+    }
+  ],
+  "ca_objects.textrefSet":[
+    {
+      "en_US":{
+        "textrefName":"Sekula, Allan. Fish Story. D\u00fcsseldorf: Richter Verlag, 2002.",
+        "textrefnameType":"book",
+        "nameRefid":null,
+        "nameRefidType":"citation"
+      }
+    }
+  ],
+  "ca_objects.titleType":[
+    {
+      "none":{
+        "titleType":"cited"
+      }
+    }
+  ],
+  "ca_objects.worktypeSet":[
+    {
+      "en_US":{
+        "worktype":null,
+        "worktypeVocab":null,
+        "worktypeRefid":null
+      }
+    }
+  ],
+  "related":{
+    "ca_entities":[
+      {
+        "item_type_id":"80",
+        "entity_id":"1",
+        "sdatetime":null,
+        "edatetime":null,
+        "relationship_type_id":"96",
+        "idno":"AG14031401_ao",
+        "idno_sort":"AG14031401  ao          ",
+        "relation_id":"1",
+        "displayname":"Allan Sekula",
+        "locale_id":"1",
+        "surname":"Sekula",
+        "forename":"Allan",
+        "source_info":"",
+        "row_id":"3",
+        "labels":{
+          "1":"Allan Sekula"
+        },
+        "_key":"relation_id",
+        "direction":"ltor",
+        "relationship_typename":"creator",
+        "relationship_type_code":"creator",
+        "label":"Allan Sekula"
+      }
+    ]
+  }
+}
+      ***/
+    });
+
+module.exports = {
+  objectJson: objectJson,
+  entityJson: entityJson
+};
