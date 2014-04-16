@@ -19,6 +19,13 @@ describe("Transformers", function() {
     expect(destination.addresses[0].stateprovince).toEqual('California');
     expect(destination.addresses[0].postalcode).toEqual('90004');
     expect(destination.addresses[0].country).toEqual('USA');
+
+    expect(destination.relationships[0]).toEqual({
+        id:   '3',
+        type: 'object',
+        label: 'Pipe fitters finishing the engine room of a tuna-fishing boat. Campbell Shipyard. San Diego harbor',
+        relationship: 'creator'
+    });
   });
 
   it("can transform a single object", function() {
@@ -31,6 +38,12 @@ describe("Transformers", function() {
     expect(destination.measurements).toEqual({
         height: '61.3 cm',
         width: '77.8 cm'
+    });
+    expect(destination.relationships[0]).toEqual({
+        id:   '1',
+        type: 'entity',
+        label: 'Allan Sekula',
+        relationship: 'creator'
     });
   });
 });
