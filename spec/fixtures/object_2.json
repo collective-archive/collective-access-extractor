@@ -1,0 +1,630 @@
+{
+  "ok":true,
+  "preferred_labels":{
+    "en_US":[
+      "Living the Artist Life (Seth Clark)"
+    ]
+  },
+  "object_id":{
+    "value":"2"
+  },
+  "hier_object_id":{
+    "value":"2"
+  },
+  "source_id":{
+    "value":"23",
+    "display_text":{
+      "en_US":"Original"
+    }
+  },
+  "type_id":{
+    "value":"21",
+    "display_text":{
+      "en_US":"Work"
+    }
+  },
+  "idno":{
+    "value":"WK14050602_ao"
+  },
+  "idno_sort":{
+    "value":"WK14050602  ao          "
+  },
+  "hier_left":{
+    "value":"1.00000000000000000000"
+  },
+  "hier_right":{
+    "value":"4294967296.00000000000000000000"
+  },
+  "extent":{
+    "value":"0"
+  },
+  "extent_units":{
+    "value":""
+  },
+  "access":{
+    "value":"1",
+    "display_text":{
+      "en_US":"accessible to public"
+    }
+  },
+  "status":{
+    "value":"4",
+    "display_text":{
+      "en_US":"completed"
+    }
+  },
+  "deleted":{
+    "value":"0"
+  },
+  "rank":{
+    "value":"0"
+  },
+  "acl_inherit_from_ca_collections":{
+    "value":"0"
+  },
+  "acl_inherit_from_parent":{
+    "value":"0"
+  },
+  "representations":{
+    "2":{
+      "representation_id":"2",
+      "media":null,
+      "is_primary":"1",
+      "access":"1",
+      "status":"4",
+      "name":null,
+      "locale_id":null,
+      "media_metadata":null,
+      "type_id":"136",
+      "idno":"",
+      "idno_sort":"            ",
+      "md5":"4236317d4be7a4d3fe323c900f23b9eb",
+      "mimetype":"image\/jpeg",
+      "original_filename":"RESIZED-SethClark.jpg",
+      "rank":"2",
+      "tags":{
+        "preview170":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/34988_ca_object_representations_media_2_preview170.jpg' width='121' height='170' \/>",
+        "medium":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/86469_ca_object_representations_media_2_medium.jpg' width='285' height='400' \/>"
+      },
+      "urls":{
+        "preview170":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/34988_ca_object_representations_media_2_preview170.jpg",
+        "medium":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/86469_ca_object_representations_media_2_medium.jpg"
+      },
+      "info":{
+        "original_filename":"RESIZED-SethClark.jpg",
+        "preview170":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":121,
+          "HEIGHT":170,
+          "PROPERTIES":{
+            "width":121,
+            "height":170,
+            "quality":"75",
+            "filesize":155043,
+            "bitdepth":8,
+            "resolution":{
+              "x":72,
+              "y":72
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"preview170"
+          },
+          "FILENAME":"ca_object_representations_media_2_preview170.jpg",
+          "HASH":"0",
+          "MAGIC":34988,
+          "EXTENSION":"jpg",
+          "MD5":"d6ae8ef727deaa57f1badfe88e382b8f"
+        },
+        "medium":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":285,
+          "HEIGHT":400,
+          "PROPERTIES":{
+            "width":285,
+            "height":400,
+            "quality":"75",
+            "filesize":155043,
+            "bitdepth":8,
+            "resolution":{
+              "x":72,
+              "y":72
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"medium"
+          },
+          "FILENAME":"ca_object_representations_media_2_medium.jpg",
+          "HASH":"0",
+          "MAGIC":86469,
+          "EXTENSION":"jpg",
+          "MD5":"491fe6f898f7eb2efc52ff4c4545f820"
+        }
+      },
+      "paths":{
+        "preview170":"\/var\/www\/media\/collectiveaccess\/images\/0\/34988_ca_object_representations_media_2_preview170.jpg",
+        "medium":"\/var\/www\/media\/collectiveaccess\/images\/0\/86469_ca_object_representations_media_2_medium.jpg"
+      },
+      "dimensions":{
+        "preview170":"571p x 800p; 8 bpp; RGB; 72ppi;  0.1mb",
+        "medium":"571p x 800p; 8 bpp; RGB; 72ppi;  0.1mb"
+      },
+      "num_multifiles":0,
+      "label":"general view"
+    },
+    "4":{
+      "representation_id":"4",
+      "media":null,
+      "is_primary":"0",
+      "access":"1",
+      "status":"4",
+      "name":null,
+      "locale_id":null,
+      "media_metadata":null,
+      "type_id":"136",
+      "idno":"",
+      "idno_sort":"            ",
+      "md5":"77917f31bb2db22b2a0fce296f42dce3",
+      "mimetype":"image\/jpeg",
+      "original_filename":"20131005_122716.jpg",
+      "rank":"4",
+      "tags":{
+        "preview170":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/44409_ca_object_representations_media_4_preview170.jpg' width='123' height='170' \/>",
+        "medium":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/63577_ca_object_representations_media_4_medium.jpg' width='290' height='400' \/>"
+      },
+      "urls":{
+        "preview170":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/44409_ca_object_representations_media_4_preview170.jpg",
+        "medium":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/63577_ca_object_representations_media_4_medium.jpg"
+      },
+      "info":{
+        "original_filename":"20131005_122716.jpg",
+        "preview170":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":123,
+          "HEIGHT":170,
+          "PROPERTIES":{
+            "width":123,
+            "height":170,
+            "quality":"75",
+            "filesize":159546,
+            "bitdepth":8,
+            "resolution":{
+              "x":72,
+              "y":72
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"preview170"
+          },
+          "FILENAME":"ca_object_representations_media_4_preview170.jpg",
+          "HASH":"0",
+          "MAGIC":44409,
+          "EXTENSION":"jpg",
+          "MD5":"c9bb244f733994e35b0b2f99a6c0f41a"
+        },
+        "medium":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":290,
+          "HEIGHT":400,
+          "PROPERTIES":{
+            "width":290,
+            "height":400,
+            "quality":"75",
+            "filesize":159546,
+            "bitdepth":8,
+            "resolution":{
+              "x":72,
+              "y":72
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"medium"
+          },
+          "FILENAME":"ca_object_representations_media_4_medium.jpg",
+          "HASH":"0",
+          "MAGIC":63577,
+          "EXTENSION":"jpg",
+          "MD5":"3be30aa79dea41cb6491386a9658408d"
+        }
+      },
+      "paths":{
+        "preview170":"\/var\/www\/media\/collectiveaccess\/images\/0\/44409_ca_object_representations_media_4_preview170.jpg",
+        "medium":"\/var\/www\/media\/collectiveaccess\/images\/0\/63577_ca_object_representations_media_4_medium.jpg"
+      },
+      "dimensions":{
+        "preview170":"1071p x 1477p; 8 bpp; RGB; 72ppi;  0.3mb",
+        "medium":"1071p x 1477p; 8 bpp; RGB; 72ppi;  0.3mb"
+      },
+      "num_multifiles":0,
+      "label":"test test"
+    },
+    "5":{
+      "representation_id":"5",
+      "media":null,
+      "is_primary":"0",
+      "access":"1",
+      "status":"4",
+      "name":null,
+      "locale_id":null,
+      "media_metadata":null,
+      "type_id":"136",
+      "idno":"",
+      "idno_sort":"            ",
+      "md5":"b92a9bc45d6dadf3c4054c11ddcab67a",
+      "mimetype":"image\/jpeg",
+      "original_filename":"rc.jpg",
+      "rank":"5",
+      "tags":{
+        "preview170":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/85149_ca_object_representations_media_5_preview170.jpg' width='170' height='128' \/>",
+        "medium":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/46343_ca_object_representations_media_5_medium.jpg' width='400' height='300' \/>"
+      },
+      "urls":{
+        "preview170":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/85149_ca_object_representations_media_5_preview170.jpg",
+        "medium":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/46343_ca_object_representations_media_5_medium.jpg"
+      },
+      "info":{
+        "original_filename":"rc.jpg",
+        "preview170":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":170,
+          "HEIGHT":128,
+          "PROPERTIES":{
+            "width":170,
+            "height":128,
+            "quality":"75",
+            "filesize":439381,
+            "bitdepth":8,
+            "resolution":{
+              "x":300,
+              "y":300
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"preview170"
+          },
+          "FILENAME":"ca_object_representations_media_5_preview170.jpg",
+          "HASH":"0",
+          "MAGIC":85149,
+          "EXTENSION":"jpg",
+          "MD5":"d3cc29a2f2a6d2261e8328219b010f5b"
+        },
+        "medium":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":400,
+          "HEIGHT":300,
+          "PROPERTIES":{
+            "width":400,
+            "height":300,
+            "quality":"75",
+            "filesize":439381,
+            "bitdepth":8,
+            "resolution":{
+              "x":300,
+              "y":300
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"medium"
+          },
+          "FILENAME":"ca_object_representations_media_5_medium.jpg",
+          "HASH":"0",
+          "MAGIC":46343,
+          "EXTENSION":"jpg",
+          "MD5":"0897227e3d2f19f9ac6b37389686a9aa"
+        }
+      },
+      "paths":{
+        "preview170":"\/var\/www\/media\/collectiveaccess\/images\/0\/85149_ca_object_representations_media_5_preview170.jpg",
+        "medium":"\/var\/www\/media\/collectiveaccess\/images\/0\/46343_ca_object_representations_media_5_medium.jpg"
+      },
+      "dimensions":{
+        "preview170":"3264p x 2448p; 8 bpp; RGB; 300ppi;  5.7mb",
+        "medium":"3264p x 2448p; 8 bpp; RGB; 300ppi;  5.7mb"
+      },
+      "num_multifiles":0,
+      "label":"Large jpg"
+    },
+    "6":{
+      "representation_id":"6",
+      "media":null,
+      "is_primary":"0",
+      "access":"1",
+      "status":"4",
+      "name":"English",
+      "locale_id":"1",
+      "media_metadata":null,
+      "type_id":"136",
+      "idno":"",
+      "idno_sort":"            ",
+      "md5":"42ac9387b5307d5380d85fd24a465975",
+      "mimetype":"image\/tiff",
+      "original_filename":"OCC Exhibit Hall.tif",
+      "rank":"6",
+      "tags":{
+        "preview170":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/13088_ca_object_representations_media_6_preview170.jpg' width='170' height='115' \/>",
+        "medium":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/98260_ca_object_representations_media_6_medium.jpg' width='400' height='270' \/>"
+      },
+      "urls":{
+        "preview170":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/13088_ca_object_representations_media_6_preview170.jpg",
+        "medium":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/98260_ca_object_representations_media_6_medium.jpg"
+      },
+      "info":{
+        "original_filename":"OCC Exhibit Hall.tif",
+        "preview170":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":170,
+          "HEIGHT":115,
+          "PROPERTIES":{
+            "width":170,
+            "height":115,
+            "quality":"75",
+            "filesize":136738,
+            "bitdepth":8,
+            "resolution":{
+              "x":300,
+              "y":300
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"preview170"
+          },
+          "FILENAME":"ca_object_representations_media_6_preview170.jpg",
+          "HASH":"0",
+          "MAGIC":13088,
+          "EXTENSION":"jpg",
+          "MD5":"f6b1d0ce312678cf895d95be1156343e"
+        },
+        "medium":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":400,
+          "HEIGHT":270,
+          "PROPERTIES":{
+            "width":400,
+            "height":270,
+            "quality":"75",
+            "filesize":136738,
+            "bitdepth":8,
+            "resolution":{
+              "x":300,
+              "y":300
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"medium"
+          },
+          "FILENAME":"ca_object_representations_media_6_medium.jpg",
+          "HASH":"0",
+          "MAGIC":98260,
+          "EXTENSION":"jpg",
+          "MD5":"d9608a2943578d7e6bcd18a199b3adb4"
+        }
+      },
+      "paths":{
+        "preview170":"\/var\/www\/media\/collectiveaccess\/images\/0\/13088_ca_object_representations_media_6_preview170.jpg",
+        "medium":"\/var\/www\/media\/collectiveaccess\/images\/0\/98260_ca_object_representations_media_6_medium.jpg"
+      },
+      "dimensions":{
+        "preview170":"2224p x 1500p; 8 bpp; CMYK; 300ppi;  9.4mb",
+        "medium":"2224p x 1500p; 8 bpp; CMYK; 300ppi;  9.4mb"
+      },
+      "num_multifiles":0,
+      "label":"large TIFF"
+    }
+  },
+  "ca_objects.generalNotes":[
+    {
+      "en_US":{
+        "generalNotes":null
+      }
+    }
+  ],
+  "ca_objects.agentNotes_objectRecord":[
+    {
+      "en_US":{
+        "agentNotes_objectRecord":"Photographed and designed"
+      }
+    }
+  ],
+  "ca_objects.culturalContextSet":[
+    {
+      "none":{
+        "culturalContextTerm":"American",
+        "culturalContextNotes":null
+      }
+    }
+  ],
+  "ca_objects.dateSet":[
+    {
+      "none":{
+        "displayDate":"2014",
+        "indexingDate":"2014",
+        "dateType":"creation",
+        "dateSource":"",
+        "dateNotes":null
+      }
+    }
+  ],
+  "ca_objects.materialDisplayText":[
+    {
+      "en_US":{
+        "materialDisplayText":"digital photograph"
+      }
+    }
+  ],
+  "ca_objects.rightsSet":[
+    {
+      "en_US":{
+        "rightsType":"undetermined",
+        "rightsStatement":null,
+        "rightsHolder":null,
+        "rightNotes":null
+      }
+    }
+  ],
+  "ca_objects.workTypeSet":[
+    {
+      "en_US":{
+        "workType":"electronic or digital works",
+        "workTypeNotes":null
+      }
+    }
+  ],
+  "related":{
+    "ca_entities":[
+      {
+        "item_type_id":"82",
+        "entity_id":"2",
+        "sdatetime":null,
+        "edatetime":null,
+        "relationship_type_id":"99",
+        "idno":"AG14050601_ao",
+        "idno_sort":"AG14050601  ao          ",
+        "relation_id":"2",
+        "displayname":"Ryan Lammie",
+        "locale_id":"1",
+        "surname":"Lammie",
+        "forename":"Ryan",
+        "source_info":"",
+        "row_id":"2",
+        "labels":{
+          "1":"Ryan Lammie"
+        },
+        "_key":"relation_id",
+        "direction":"ltor",
+        "relationship_typename":"artist",
+        "relationship_type_code":"artist",
+        "label":"Ryan Lammie"
+      }
+    ],
+    "ca_places":[
+      {
+        "item_type_id":"99",
+        "place_id":"7",
+        "sdatetime":null,
+        "edatetime":null,
+        "relationship_type_id":"175",
+        "idno":"LOC14050606_ao",
+        "idno_sort":"LOC14050606 ao          ",
+        "relation_id":"1",
+        "name":"Radiant Hall",
+        "locale_id":"1",
+        "source_info":"",
+        "row_id":"2",
+        "labels":{
+          "1":"Radiant Hall"
+        },
+        "_key":"relation_id",
+        "direction":"ltor",
+        "relationship_typename":"creation",
+        "relationship_type_code":"creation",
+        "label":"Radiant Hall"
+      }
+    ],
+    "ca_object_representations":[
+      {
+        "item_type_id":"136",
+        "representation_id":"2",
+        "idno":"",
+        "idno_sort":"            ",
+        "relation_id":"2",
+        "name":"general view",
+        "locale_id":"1",
+        "row_id":"2",
+        "labels":{
+          "1":"general view"
+        },
+        "_key":"relation_id",
+        "direction":null,
+        "label":"general view"
+      },
+      {
+        "item_type_id":"136",
+        "representation_id":"4",
+        "idno":"",
+        "idno_sort":"            ",
+        "relation_id":"3",
+        "name":"test test",
+        "locale_id":"1",
+        "row_id":"2",
+        "labels":{
+          "1":"test test"
+        },
+        "_key":"relation_id",
+        "direction":null,
+        "label":"test test"
+      },
+      {
+        "item_type_id":"136",
+        "representation_id":"5",
+        "idno":"",
+        "idno_sort":"            ",
+        "relation_id":"4",
+        "name":"Large jpg",
+        "locale_id":"1",
+        "row_id":"2",
+        "labels":{
+          "1":"Large jpg"
+        },
+        "_key":"relation_id",
+        "direction":null,
+        "label":"Large jpg"
+      },
+      {
+        "item_type_id":"136",
+        "representation_id":"6",
+        "idno":"",
+        "idno_sort":"            ",
+        "relation_id":"5",
+        "name":"large TIFF",
+        "locale_id":"1",
+        "row_id":"2",
+        "labels":{
+          "1":"large TIFF"
+        },
+        "_key":"relation_id",
+        "direction":null,
+        "label":"large TIFF"
+      }
+    ]
+  }
+}

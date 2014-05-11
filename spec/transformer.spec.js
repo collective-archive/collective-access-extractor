@@ -37,5 +37,11 @@ describe("Transformers", function() {
         label: 'Ryan Lammie',
         relationship: 'artist'
     });
+
+    expect(destination.representations.length).toEqual(1);
+    expect(destination.representations[0]).toEqual({
+        id: '1',
+        url: "http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/60116_ca_object_representations_media_1_medium.jpg"
+    });
   });
 });
