@@ -3,7 +3,7 @@ Gateway = require('../lib/gateway')
 describe("Gateway", function() {
   beforeEach(function() {
     this.params = {
-      url:      'http://162.243.52.198/',
+      url:      'http://archive.collectivearchivepgh.org/',
       username: 'api',
       password: 'api123'
     };
@@ -11,7 +11,14 @@ describe("Gateway", function() {
   });
 
   it("can fetch a single item", function(done) {
-    this.gateway.getItem(1, function(err, item) {
+    var test = this;
+
+    this.gateway.getObject(1, function(err, item) {
+      if(err) {
+        test.fail(err);
+        done();
+      }
+
       console.log(item);
       done();
     });
