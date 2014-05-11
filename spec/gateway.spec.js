@@ -13,13 +13,14 @@ describe("Gateway", function() {
   it("can fetch a single item", function(done) {
     var test = this;
 
-    this.gateway.getObject(1, function(err, item) {
+    this.gateway.getObject(1, function(err, id, item) {
       if(err) {
         test.fail(err);
         done();
       }
 
       console.log(item);
+      expect(id).toEqual(1);
       done();
     });
   });
