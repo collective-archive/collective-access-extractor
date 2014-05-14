@@ -31,6 +31,10 @@ describe("Transformers", function() {
     expect(destination.displayName).toEqual('OO 11 (855 Empiricism)');
     expect(destination.material).toEqual('rubber, arylic, silicone, latex, found objects');
     expect(destination.measurements).toEqual('24 x 30 x 11 in (60 x 76 x 28 cm)');
+    expect(destination.workType).toEqual({
+        workType: 'mixed media',
+        workTypeNotes: null
+    });
     expect(destination.relationships[0]).toEqual({
         id:   '2',
         type: 'entity',
