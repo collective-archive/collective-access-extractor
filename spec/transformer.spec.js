@@ -35,6 +35,10 @@ describe("Transformers", function() {
         workType: 'mixed media',
         workTypeNotes: null
     });
+    expect(destination.culture).toEqual({
+        culture: 'American',
+        notes: null
+    });
     expect(destination.relationships[0]).toEqual({
         id:   '2',
         type: 'entity',
