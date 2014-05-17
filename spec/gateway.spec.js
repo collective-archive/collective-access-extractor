@@ -10,6 +10,31 @@ describe("Gateway", function() {
     this.gateway = new Gateway(this.params);
   });
 
+  it("can fetch all the objects", function(done) {
+    var test = this;
+
+    this.gateway.getObjects(function(err, body) {
+      if(err) {
+        test.fail(err);
+        done();
+      }
+      done();
+    });
+  });
+
+  it("can fetch all the entities", function(done) {
+    var test = this;
+
+    this.gateway.getEntities(function(err, body) {
+      console.log(body);
+      if(err) {
+        test.fail(err);
+        done();
+      }
+      done();
+    });
+  });
+
   it("can fetch a single item", function(done) {
     var test = this;
 
