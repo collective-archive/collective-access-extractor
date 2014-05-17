@@ -19,7 +19,8 @@ describe("Transformers", function() {
         id:   '1',
         type: 'object',
         label: 'OO 11 (855 Empiricism)',
-        relationship: 'artist'
+        relationship: 'artist',
+        location: 'Radiant Hall'
     });
   });
 
@@ -43,7 +44,8 @@ describe("Transformers", function() {
         id:   '2',
         type: 'entity',
         label: 'Ryan Lammie',
-        relationship: 'artist'
+        relationship: 'artist',
+        location: 'Pittsburgh'
     });
 
     expect(destination.representations.length).toEqual(1);
