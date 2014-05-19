@@ -13,7 +13,7 @@ describe("Gateway", function() {
   it("can fetch all the objects", function(done) {
     var test = this;
 
-    this.gateway.getObjects(function(err, body) {
+    this.gateway.getModel('ca_objects', function(err, body) {
       if(err) {
         test.fail(err);
         done();
@@ -25,8 +25,7 @@ describe("Gateway", function() {
   it("can fetch all the entities", function(done) {
     var test = this;
 
-    this.gateway.getEntities(function(err, body) {
-      console.log(body);
+    this.gateway.getModel('ca_entities', function(err, body) {
       if(err) {
         test.fail(err);
         done();
