@@ -48,6 +48,14 @@ describe("Transformers", function() {
         location: 'Pittsburgh'
     });
 
+    expect(destination.artists[0]).toEqual({
+        id:   '2',
+        type: 'entity',
+        label: 'Ryan Lammie',
+        relationship: 'artist',
+        location: 'Pittsburgh'
+    });
+
     expect(destination.representations.length).toEqual(1);
     expect(destination.representations[0]).toEqual({
         id: '1',
