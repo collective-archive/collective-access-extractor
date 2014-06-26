@@ -40,13 +40,7 @@ describe("Transformers", function() {
         culture: 'American',
         notes: null
     });
-    expect(destination.relationships[0]).toEqual({
-        id:   '2',
-        type: 'entity',
-        label: 'Ryan Lammie',
-        relationship: 'artist',
-        location: 'Pittsburgh'
-    });
+    expect(destination.relationships.length).toEqual(0);
 
     expect(destination.artists[0]).toEqual({
         id:   '2',
