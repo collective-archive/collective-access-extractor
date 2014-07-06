@@ -24,35 +24,25 @@ describe("Transformers", function() {
   });
 
   it("can transform a single object", function() {
-    uestination = transformers.objectTransformer.transform(this.sourceObject);
+    destination = transformers.objectTransformer.transform(this.sourceObject);
 
     expect(destination.id).toEqual('3');
-    expect(destination.idNumber).toEqual('WK14050601_ao');
-    expect(destination.displayName).toEqual('OO 11 (855 Empiricism)');
-    expect(destination.material).toEqual('rubber, arylic, silicone, latex, found objects');
-    expect(destination.measurements).toEqual('24 x 30 x 11 in (60 x 76 x 28 cm)');
-    expect(destination.workType).toEqual({
-        workType: 'mixed media',
-        workTypeNotes: null
-    });
-    expect(destination.culture).toEqual({
-        culture: 'American',
-        notes: null
-    });
+    expect(destination.idNumber).toEqual('WK14063002_ao');
+    expect(destination.displayName).toEqual('OO 11 (Empiricism)');
+    expect(destination.material).toEqual('rubber, acrylic, silicone, latex, found objects');
     expect(destination.relationships.length).toEqual(0);
 
     expect(destination.artists[0]).toEqual({
-        id:   '2',
+        id:   '1',
         type: 'entity',
         label: 'Ryan Lammie',
-        relationship: 'artist',
-        location: 'Pittsburgh'
+        relationship: 'artist'
     });
 
     expect(destination.representations.length).toEqual(1);
     expect(destination.representations[0]).toEqual({
-        id: '1',
-        url: "http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/60116_ca_object_representations_media_1_medium.jpg"
+        id: '4',
+        url: "http://archive.collectivearchivepgh.org/media/collectiveaccess/images/0/75708_ca_object_representations_media_4_medium.jpg"
     });
   });
 });
