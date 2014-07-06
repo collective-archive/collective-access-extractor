@@ -1,0 +1,266 @@
+{
+  "ok":true,
+  "preferred_labels":{
+    "en_US":[
+      "OO 11 (Empiricism)"
+    ]
+  },
+  "object_id":{
+    "value":"3"
+  },
+  "hier_object_id":{
+    "value":"3"
+  },
+  "type_id":{
+    "value":"27",
+    "display_text":{
+      "en_US":"work record"
+    }
+  },
+  "idno":{
+    "value":"WK14063002_ao"
+  },
+  "idno_sort":{
+    "value":"WK14063002  ao          "
+  },
+  "hier_left":{
+    "value":"1.00000000000000000000"
+  },
+  "hier_right":{
+    "value":"4294967296.00000000000000000000"
+  },
+  "extent":{
+    "value":"0"
+  },
+  "extent_units":{
+    "value":""
+  },
+  "access":{
+    "value":"0",
+    "display_text":{
+      "en_US":"not accessible to public"
+    }
+  },
+  "status":{
+    "value":"0",
+    "display_text":{
+      "en_US":"new"
+    }
+  },
+  "deleted":{
+    "value":"0"
+  },
+  "rank":{
+    "value":"0"
+  },
+  "acl_inherit_from_ca_collections":{
+    "value":"0"
+  },
+  "acl_inherit_from_parent":{
+    "value":"0"
+  },
+  "representations":{
+    "4":{
+      "representation_id":"4",
+      "media":null,
+      "is_primary":"1",
+      "access":"0",
+      "status":"0",
+      "name":null,
+      "locale_id":null,
+      "media_metadata":null,
+      "type_id":"124",
+      "idno":"",
+      "idno_sort":"            ",
+      "md5":"2f739ec47cb05b6414b11f51332b99db",
+      "mimetype":"image\/png",
+      "original_filename":"OO-11-(855-Empiricism).png",
+      "rank":"4",
+      "tags":{
+        "preview170":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/49219_ca_object_representations_media_4_preview170.jpg' width='132' height='170' \/>",
+        "medium":"<img src='http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/75708_ca_object_representations_media_4_medium.jpg' width='311' height='400' \/>"
+      },
+      "urls":{
+        "preview170":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/49219_ca_object_representations_media_4_preview170.jpg",
+        "medium":"http:\/\/archive.collectivearchivepgh.org\/media\/collectiveaccess\/images\/0\/75708_ca_object_representations_media_4_medium.jpg"
+      },
+      "info":{
+        "original_filename":"OO-11-(855-Empiricism).png",
+        "preview170":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":132,
+          "HEIGHT":170,
+          "PROPERTIES":{
+            "width":132,
+            "height":170,
+            "quality":"75",
+            "filesize":330841,
+            "bitdepth":8,
+            "resolution":{
+              "x":28,
+              "y":28
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"preview170"
+          },
+          "FILENAME":"ca_object_representations_media_4_preview170.jpg",
+          "HASH":"0",
+          "MAGIC":49219,
+          "EXTENSION":"jpg",
+          "MD5":"3d315a2ec2d9e4e3d656af951f0af154"
+        },
+        "medium":{
+          "VOLUME":"images",
+          "MIMETYPE":"image\/jpeg",
+          "WIDTH":311,
+          "HEIGHT":400,
+          "PROPERTIES":{
+            "width":311,
+            "height":400,
+            "quality":"75",
+            "filesize":330841,
+            "bitdepth":8,
+            "resolution":{
+              "x":28,
+              "y":28
+            },
+            "colorspace":"RGB",
+            "faces":[
+              
+            ],
+            "mimetype":"image\/jpeg",
+            "typename":"JPEG",
+            "version":"medium"
+          },
+          "FILENAME":"ca_object_representations_media_4_medium.jpg",
+          "HASH":"0",
+          "MAGIC":75708,
+          "EXTENSION":"jpg",
+          "MD5":"8dfa1dd774405be506e298c29839035e"
+        }
+      },
+      "paths":{
+        "preview170":"\/var\/www\/media\/collectiveaccess\/images\/0\/49219_ca_object_representations_media_4_preview170.jpg",
+        "medium":"\/var\/www\/media\/collectiveaccess\/images\/0\/75708_ca_object_representations_media_4_medium.jpg"
+      },
+      "dimensions":{
+        "preview170":"639p x 822p; 8 bpp; RGB; 28.35ppi;  1.3mb",
+        "medium":"639p x 822p; 8 bpp; RGB; 28.35ppi;  1.3mb"
+      },
+      "num_multifiles":0,
+      "label":"General view"
+    }
+  },
+  "ca_objects.credit_text":[
+    {
+      "en_US":{
+        "credit_text":null
+      }
+    }
+  ],
+  "ca_objects.copyright_text":[
+    {
+      "en_US":{
+        "copyright_text":null
+      }
+    }
+  ],
+  "ca_objects.materials":[
+    {
+      "en_US":{
+        "materials":"rubber, acrylic, silicone, latex, found objects"
+      }
+    }
+  ],
+  "ca_objects.object_classification":[
+    {
+      "none":{
+        "object_classification":"Exhibitions"
+      }
+    }
+  ],
+  "ca_objects.dates":[
+    {
+      "none":{
+        "dates_value":"2013",
+        "dates_type":"Creation dates"
+      }
+    }
+  ],
+  "related":{
+    "ca_entities":[
+      {
+        "item_type_id":"79",
+        "entity_id":"1",
+        "sdatetime":null,
+        "edatetime":null,
+        "relationship_type_id":"96",
+        "idno":"AG14063001_ao",
+        "idno_sort":"AG14063001  ao          ",
+        "relation_id":"1",
+        "displayname":"Ryan Lammie",
+        "locale_id":"1",
+        "surname":"Lammie",
+        "forename":"Ryan",
+        "source_info":"",
+        "row_id":"3",
+        "labels":{
+          "1":"Ryan Lammie"
+        },
+        "_key":"relation_id",
+        "direction":"ltor",
+        "relationship_typename":"had as artist",
+        "relationship_type_code":"artist",
+        "label":"Ryan Lammie"
+      }
+    ],
+    "ca_occurrences":[
+      {
+        "item_type_id":"96",
+        "occurrence_id":"1",
+        "sdatetime":null,
+        "edatetime":null,
+        "relationship_type_id":"120",
+        "idno":"EX14063001_ao",
+        "idno_sort":"EX14063001  ao          ",
+        "relation_id":"1",
+        "name":"Origins & Gravity",
+        "locale_id":"1",
+        "source_info":"",
+        "row_id":"3",
+        "labels":{
+          "1":"Origins & Gravity"
+        },
+        "_key":"relation_id",
+        "direction":"ltor",
+        "relationship_typename":"was used in",
+        "relationship_type_code":"used",
+        "label":"Origins & Gravity"
+      }
+    ],
+    "ca_object_representations":[
+      {
+        "item_type_id":"124",
+        "representation_id":"4",
+        "idno":"",
+        "idno_sort":"            ",
+        "relation_id":"4",
+        "name":"General view",
+        "locale_id":"1",
+        "row_id":"3",
+        "labels":{
+          "1":"General view"
+        },
+        "_key":"relation_id",
+        "direction":null,
+        "label":"General view"
+      }
+    ]
+  }
+}

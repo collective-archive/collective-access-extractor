@@ -10,24 +10,23 @@ describe("Transformers", function() {
   it("can transform a single entity", function() {
     destination = transformers.entityTransformer.transform(this.sourceEntity);
 
-    expect(destination.id).toEqual('2');
-    expect(destination.idNumber).toEqual('AG14050601_ao');
+    expect(destination.id).toEqual('1');
+    expect(destination.idNumber).toEqual('AG14063001_ao');
     expect(destination.displayName).toEqual('Ryan Lammie');
 
-    expect(destination.relationships.length).toEqual(5);
+    expect(destination.relationships.length).toEqual(3);
     expect(destination.relationships[0]).toEqual({
-        id:   '1',
+        id:   '3',
         type: 'object',
-        label: 'OO 11 (855 Empiricism)',
-        relationship: 'artist',
-        location: 'Radiant Hall'
+        label: 'OO 11 (Empiricism)',
+        relationship: 'was artist'
     });
   });
 
   it("can transform a single object", function() {
-    destination = transformers.objectTransformer.transform(this.sourceObject);
+    uestination = transformers.objectTransformer.transform(this.sourceObject);
 
-    expect(destination.id).toEqual('1');
+    expect(destination.id).toEqual('3');
     expect(destination.idNumber).toEqual('WK14050601_ao');
     expect(destination.displayName).toEqual('OO 11 (855 Empiricism)');
     expect(destination.material).toEqual('rubber, arylic, silicone, latex, found objects');
