@@ -12,14 +12,23 @@ describe("Gateway", function() {
   });
 
   it("can fetch all the records", function(done) {
-    Extractor.fetchAllRecords(this.params, function(err, id, type, data){console.log(data);}, function(){done();})
-  });
+    Extractor.fetchAllRecords(this.params, function(err, id, type, data) {
+      if(err) {
+        console.log("Error:" + err);
+        test.fail(err);
+        done();
+      }
+    }, function(){
+      done();
+    })
+  }, 10000);
 
   it("can fetch a single item", function(done) {
     var test = this;
 
     this.gateway.getObject(1, function(err, id, item) {
       if(err) {
+        console.log(err);
         test.fail(err);
         done();
       }
