@@ -38,4 +38,20 @@ describe("Gateway", function() {
       done();
     });
   });
+
+  it("can fetch a single occurrence", function(done) {
+    var test = this;
+
+    this.gateway.getOccurrence(1, function(err, id, item) {
+      if(err) {
+        console.log(err);
+        test.fail(err);
+        done();
+      }
+
+      console.log(item);
+      expect(id).toEqual(1);
+      done();
+    });
+  });
 });
