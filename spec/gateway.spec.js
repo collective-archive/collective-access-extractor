@@ -18,23 +18,23 @@ describe("Gateway", function() {
         test.fail(err);
         done();
       }
+
     }, function(){
       done();
     })
-  }, 10000);
+  }, 50000);
 
   it("can fetch a single item", function(done) {
     var test = this;
 
-    this.gateway.getObject(1, function(err, id, item) {
+    this.gateway.getObject(4, function(err, id, item) {
       if(err) {
         console.log(err);
         test.fail(err);
         done();
       }
 
-      console.log(item);
-      expect(id).toEqual(1);
+      expect(id).toEqual(4);
       done();
     });
   });
