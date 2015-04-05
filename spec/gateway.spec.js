@@ -19,6 +19,7 @@ describe("Gateway", function() {
         done();
       }
 
+      console.log(data)
     }, function(){
       done();
     })
