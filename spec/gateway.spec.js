@@ -12,7 +12,9 @@ describe("Gateway", function() {
   });
 
   it("can fetch all the records", function(done) {
-    Extractor.fetchAllRecords(this.params, function(err, id, type, data) {
+    var types = ['objects', 'collections', 'entities', 'occurrences'];
+
+    Extractor.fetchAllRecords(this.params, types, function(err, id, type, data) {
       if(err) {
         console.log("Error:" + err);
         test.fail(err);
